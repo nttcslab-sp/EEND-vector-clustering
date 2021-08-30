@@ -1,0 +1,1 @@
+../../../tools/EEND/egs/callhome/v1/run_prepare_shared_eda.sh

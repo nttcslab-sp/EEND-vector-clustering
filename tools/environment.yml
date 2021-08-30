@@ -1,0 +1,21 @@
+name: eend
+channels:
+  - defaults
+dependencies:
+  - python=3.7.7
+  - pip
+  - pip:
+    - h5py==2.10.0
+    - librosa==0.7.2
+    - numpy==1.18.4
+    - protobuf==3.7.1
+    - scipy==1.4.1
+    - tqdm==4.46.0
+    - SoundFile==0.10.3.post1
+    - matplotlib==3.2.1
+    - kaldiio==2.15.1
+    - yamlargparse==1.31.1
+    - cython==0.29.19
+    - sacred==0.8.1
+    - numba==0.48.0
+    - tensorboard==2.2.2

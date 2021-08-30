@@ -1,0 +1,30 @@
+# Copyright (c) 2021 Nippon Telegraph and Telephone corporation (NTT).
+# All rights reserved
+
+# training options
+spk_loss_ratio: 0.03
+spkv_dim: 256
+max_epochs: 10
+input_transform: logmel23_mn
+lr: 0.001
+optimizer: noam
+num_speakers: 3
+gradclip: 5
+chunk_size: 150
+batchsize: 64
+num_workers: 8
+hidden_size: 256
+context_size: 7
+subsampling: 10
+frame_size: 200
+frame_shift: 80
+sampling_rate: 8000
+noam_scale: 1.0
+noam_warmup_steps: 25000
+transformer_encoder_n_heads: 8
+transformer_encoder_n_layers: 6
+transformer_encoder_dropout: 0.1
+seed: 777
+feature_nj: 100
+batchsize_per_gpu: 16
+test_run: 0

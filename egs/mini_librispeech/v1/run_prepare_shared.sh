@@ -1,0 +1,1 @@
+../../../tools/EEND/egs/mini_librispeech/v1/run_prepare_shared.sh

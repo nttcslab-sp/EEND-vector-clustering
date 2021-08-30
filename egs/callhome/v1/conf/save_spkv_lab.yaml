@@ -1,0 +1,16 @@
+# Copyright (c) 2021 Nippon Telegraph and Telephone corporation (NTT).
+# All rights reserved
+
+# options for saving speaker vector with label
+num_speakers: 3
+spkv_dim: 256
+hidden_size: 256
+input_transform: logmel23_mn
+chunk_size: 300
+context_size: 7
+subsampling: 10
+sampling_rate: 8000
+frame_size: 200
+frame_shift: 80
+transformer_encoder_n_heads: 8
+transformer_encoder_n_layers: 6
