@@ -1,0 +1,25 @@
+This directory contains the RTTM files we obtained with the model we used in our paper:
+Keisuke Kinoshita, Marc Delcroix, and Naohiro Tawara, "Advances in integration of end-to-end neural and clustering-based diarization for real conversational speech," Proc. Interspeech, 2021
+
+You can obtian the rrtm files by doing the following.
+$ tar ztf eend-vc_callhome2_hyp_rttm.tar.gz
+
+It will give you the following files, 
+a) with oracle number of speakers:
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk0/callhome2_spk2/hyp_0.5_11.rttm
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk0/callhome2_spk3/hyp_0.4_11.rttm
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk0/callhome2_spk4/hyp_0.4_11.rttm
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk0/callhome2_spk5/hyp_0.5_11.rttm
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk0/callhome2_spk6/hyp_0.5_11.rttm
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk0/callhome2_spkall/hyp_0.4_11.rttm
+
+b) with estimated number of speakers:
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk1/callhome2_spk2/hyp_0.5_11.rttm
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk1/callhome2_spk3/hyp_0.4_11.rttm
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk1/callhome2_spk4/hyp_0.4_11.rttm
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk1/callhome2_spk5/hyp_0.5_11.rttm
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk1/callhome2_spk6/hyp_0.5_11.rttm
+exp/diarize/scoring/swb_sre_tr_ns3_beta10_100000.swb_sre_cv_ns3_beta10_500.train/avg91-100.callhome1_spkall.adapt.avg21-25.infer_est_nspk1/callhome2_spkall/hyp_0.4_11.rttm
+
+
+Note that there are very minor difference in performance with the results reported in the paper because we reran the experiments on a different machine.
