@@ -352,7 +352,7 @@ def save_spkv_lab(args):
                         vec = outputs[i+1][0].cpu().detach().numpy()
                         lab = chunk_data[2][sigma[i]]
                         all_outputs.append(vec)
-                        all_labels.append(lab)
+                        all_labels.append(lab.item())
 
         orgdata_all_n_speakers = data_set.get_allnspk()
         # Generate spkidx_tbl to convert speaker ID
